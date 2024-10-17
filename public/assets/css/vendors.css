@@ -225,9 +225,9 @@
 .icon-email:before {
   content: "\e921";
 }
-.icon-explore:before {
+/* .icon-explore:before {
   content: "\e922";
-}
+} */
 .icon-facebook:before {
   content: "\e923";
 }

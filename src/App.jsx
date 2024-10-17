@@ -103,7 +103,7 @@ function App() {
             <Route path="/">
               <Route index element={<HomePage1 />} />
               <Route path="home-1" element={<HomePage1 />} />
-              <Route path="home-2" element={<HomePage2 />} />
+              {/* <Route path="home-2" element={<HomePage2 />} />
               <Route path="home-3" element={<HomePage3 />} />
               <Route path="home-4" element={<HomePage4 />} />
               <Route path="home-5" element={<HomePage5 />} />
@@ -111,7 +111,7 @@ function App() {
               <Route path="home-7" element={<HomePage7 />} />
               <Route path="home-8" element={<HomePage8 />} />
               <Route path="home-9" element={<HomePage9 />} />
-              <Route path="home-10" element={<HomePage10 />} />
+              <Route path="home-10" element={<HomePage10 />} />*/}
 
               <Route path="courses-list-1" element={<CourseListPage1 />} />
               <Route path="courses-list-2" element={<CourseListPage2 />} />

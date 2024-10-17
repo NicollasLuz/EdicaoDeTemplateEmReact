@@ -179,7 +179,7 @@ export default function Menu({ allClasses, headerPosition }) {
                     </div>
 
                     <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">Popular Courses</h4>
+                      <h4 className="text-17 fw-500 mb-20"></h4>
 
                       <ul className="mega__list">
                         {menuList[1].links[4].links.map((elm, i) => (
@@ -366,19 +366,19 @@ export default function Menu({ allClasses, headerPosition }) {
                   </ul>
                 </li>
 
-                <li className="menu-item-has-children">
+                {/* <li className="menu-item-has-children">
                   <Link
                     to="#"
                     className={
                       submenu == "Shop" ? "activeMenu" : "inActiveMenu"
                     }
                   >
-                    Shop<div className="icon-chevron-right text-11"></div>
+                    <div className="icon-chevron-right text-11"></div>
                   </Link>
                   <ul className="subnav">
                     <li className="menu__backButton js-nav-list-back">
                       <Link to="#">
-                        <i className="icon-chevron-left text-13 mr-10"></i> Shop
+                        <i className="icon-chevron-left text-13 mr-10"></i> 
                       </Link>
                     </li>
 
@@ -397,7 +397,7 @@ export default function Menu({ allClasses, headerPosition }) {
                       </li>
                     ))}
                   </ul>
-                </li>
+                </li> */}
 
                 {menuList[4].links
                   .filter((el) => el.href)

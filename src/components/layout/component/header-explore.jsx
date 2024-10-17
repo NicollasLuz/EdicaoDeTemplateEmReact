@@ -5,7 +5,7 @@ export const HeaderExplore = ({ allClasses }) => {
   return (
     <>
       <div className={`${allClasses ? allClasses : ""}`}>
-        <Link
+        {/* <Link
           to="#"
           onClick={() => setExploreActive((pre) => !pre)}
           className="d-flex items-center"
@@ -13,7 +13,7 @@ export const HeaderExplore = ({ allClasses }) => {
         >
           <i className="icon icon-explore mr-15"></i>
           Explore
-        </Link>
+        </Link> */}
 
         <div
           className={`explore-content py-25 rounded-8 bg-white toggle-element js-explore-toggle ${

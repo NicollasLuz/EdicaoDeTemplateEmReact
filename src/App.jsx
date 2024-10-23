@@ -103,24 +103,9 @@ function App() {
             <Route path="/">
               <Route index element={<HomePage1 />} />
               <Route path="home-1" element={<HomePage1 />} />
-              {/* <Route path="home-2" element={<HomePage2 />} />
-              <Route path="home-3" element={<HomePage3 />} />
-              <Route path="home-4" element={<HomePage4 />} />
-              <Route path="home-5" element={<HomePage5 />} />
-              <Route path="home-6" element={<HomePage6 />} />
-              <Route path="home-7" element={<HomePage7 />} />
-              <Route path="home-8" element={<HomePage8 />} />
-              <Route path="home-9" element={<HomePage9 />} />
-              <Route path="home-10" element={<HomePage10 />} />*/}
 
-              <Route path="courses-list-1" element={<CourseListPage1 />} />
-              <Route path="courses-list-2" element={<CourseListPage2 />} />
-              <Route path="courses-list-3" element={<CourseListPage3 />} />
               <Route path="courses-list-4" element={<CourseListPage4 />} />
-              <Route path="courses-list-5" element={<CourseListPage5 />} />
               <Route path="courses-list-6" element={<CourseListPage6 />} />
-              <Route path="courses-list-7" element={<CourseListPage7 />} />
-              <Route path="courses-list-8" element={<CourseListPage8 />} />
 
               <Route path="courses/:id" element={<CourseSinglePage1 />} />
               <Route

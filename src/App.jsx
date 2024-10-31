@@ -9,23 +9,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Context from "@/context/Context";
 import HomePage1 from "./pages";
-import HomePage2 from "./pages/homes/home-2";
-import HomePage3 from "./pages/homes/home-3";
-import HomePage4 from "./pages/homes/home-4";
-import HomePage5 from "./pages/homes/home-5";
-import HomePage6 from "./pages/homes/home-6";
-import HomePage7 from "./pages/homes/home-7";
-import HomePage8 from "./pages/homes/home-8";
-import HomePage9 from "./pages/homes/home-9";
-import HomePage10 from "./pages/homes/home-10";
-import CourseListPage1 from "./pages/coursesList/courses-list-1";
-import CourseListPage2 from "./pages/coursesList/courses-list-2";
-import CourseListPage3 from "./pages/coursesList/courses-list-3";
 import CourseListPage4 from "./pages/coursesList/courses-list-4";
-import CourseListPage5 from "./pages/coursesList/courses-list-5";
 import CourseListPage6 from "./pages/coursesList/courses-list-6";
-import CourseListPage7 from "./pages/coursesList/courses-list-7";
-import CourseListPage8 from "./pages/coursesList/courses-list-8";
 import CourseSinglePage1 from "./pages/courseSingle/courses";
 import CourseSinglePage2 from "./pages/courseSingle/courses-single-2";
 import CourseSinglePage3 from "./pages/courseSingle/courses-single-3";
@@ -131,7 +116,6 @@ function App() {
 
               <Route path="course-cart" element={<CourseCartPage />} />
               <Route path="course-checkout" element={<CourseCheckoutPage />} />
-              {/* <Route path='courses-single-5/:id' element={<CourseSinglePage6 />} /> */}
 
               <Route path="lesson-single-1" element={<LessonSinglePage1 />} />
               <Route path="lesson-single-2" element={<LessonSinglePage2 />} />
